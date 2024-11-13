@@ -1,14 +1,18 @@
-.nav{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.head{
+body{
+    padding: 20px 10px 20px 10px;
+}
+.nav{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    margin-right: auto;
 }
 .menu{
-    margin-top: 40px;
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -16,6 +20,7 @@
 width: 360px;
 height: 440px;
 background: #FFFFFF;
+margin-top: 20px;
 }
 .menu-pic{
     margin-left: 20px;
@@ -26,23 +31,22 @@ background: #FFFFFF;
     margin-left: 20px;
 }
 .hide{
-width: 328px;
-height: 39px;
-left: 16px;
-top: 16px;
+padding:10px ;
 font-family: "montserrat";
-margin-left: 20px;
+}
+.social{
+    padding:10px,10px,10px,20px;
+    margin-top: 90px;
+
 }
 .black2{
-    margin-left: 25px;
-    margin-top: 70px;
+    padding-left: 10px;
 }
 .icon{
-    margin: auto;
+    margin-left: auto;
 }
 .your{
     font-size: 32px;
-    margin-left: 25px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -57,4 +61,5 @@ margin-left: 20px;
     line-height: 39px;
     font-style: normal;
     color: #EE685F;
+    margin-right: auto;
 }
