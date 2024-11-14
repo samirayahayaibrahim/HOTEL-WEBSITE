@@ -178,3 +178,70 @@ h2{
 .p-images{
     font-family: "Montserrat";
 }
+
+.special{
+    
+}
+.h-special{
+    text-align: center;
+}
+.Rectangle{
+    padding-left: 20px;
+    padding-bottom: -10px;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 10px;
+
+}
+.rate{
+    padding-top: 40px;
+    transform: translateX(-270px);
+    margin-left: auto;
+    position: absolute;
+    justify-content: flex-end;
+}
+.favorite{
+    padding-top: 40px;
+    transform: translateX(-70px);
+    margin-left: auto;
+    position: absolute;
+}
+.Specialoffer-p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 500;
+    color: #262729;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+}
+.months{
+    margin-left: 20px;
+    font-family: "Montserrat";
+    width: 235px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #262729;
+    margin-top: -25px;
+}
+.price{
+    height: 20px;
+    width:65px ;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.time{
+    display: flex;
+}
+.night{
+    color: rgb(125, 192, 247);
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
