@@ -194,17 +194,20 @@ h2{
 
 }
 .rate{
-    padding-top: 40px;
-    transform: translateX(-270px);
-    margin-left: auto;
     position: absolute;
-    justify-content: flex-end;
+    margin-right: auto;
 }
 .favorite{
-    padding-top: 40px;
-    transform: translateX(-70px);
-    margin-left: auto;
     position: absolute;
+    padding-left: 300px;
+
+}
+.rate-fav{
+    transform: translateY(-210px);
+    display: flex; 
+    padding-left: 25px;
+    position: absolute;
+
 }
 .Specialoffer-p{
     padding-left: 20px;
