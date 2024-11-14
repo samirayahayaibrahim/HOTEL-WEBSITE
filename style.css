@@ -336,7 +336,8 @@ padding-right: 100px;
     
 .footer{
     box-sizing: border-box;
-    background-color: #D6D6D6;
+    background-color: rgb(236, 233, 233);
+    border: 2px solid rgb(236, 233, 233) ;
     height: 1000px;
     line-height: 20px;
     }
