@@ -64,6 +64,8 @@ font-family: "montserrat";
 }
 .banners{
     background-image: url("assets/banner.png");
+    height:334px;
+    width: 360px;
     background-repeat: no-repeat;
     margin-top: -20px;
     width: 100%;
@@ -242,5 +244,34 @@ h2{
     margin-top: 15px;
     margin-left: 5px;
     font-size: 18px;
+}
+.Review{
+    justify-items: center;
+}
+.Ellipse{
+    padding-top: 30px;
+}
+.p-review{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #262729;
+margin-left: 20px;
+}
+h5{
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #1A1A1A;
+padding-right: 100px;
+
+}
+.work{
+    font-family: "Montserrat";
+    font-weight: 300;
 }
 
