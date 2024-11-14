@@ -65,9 +65,8 @@ font-family: "montserrat";
 .banners{
     background-image: url("assets/banner.png");
     background-repeat: no-repeat;
-    height:334px;
-    width: 360px;
     margin-top: -20px;
+    width: 100%;
 }
 .h1-banner{
     font-weight: 328px;
