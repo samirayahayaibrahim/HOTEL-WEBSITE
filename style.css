@@ -15,6 +15,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px 10px 20px 10px;
+    overflow-x: hidden;
     
 }
 
@@ -363,8 +364,9 @@ h2{
 }
 .Ellipse{
     padding-top: 30px;
+    padding-left: 130px;
 }
-.p-review{
+.reviewDescription{
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -373,16 +375,17 @@ line-height: 22px;
 color: #262729;
 margin-left: 20px;
 }
-h5{
+.scholars{
 font-family: 'Montserrat';
 font-style: italic;
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 color: #1A1A1A;
-padding-right: 100px;
-
+padding-left: 20px;
+margin-top: -30px;
 }
+
 .work{
     font-family: "Montserrat";
     font-weight: 300;

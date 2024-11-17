@@ -64,3 +64,26 @@ const chooses = [
         
         renderSpecialoffers(specialoffers);
         /* end of special offers section */
+
+                
+const reviews = [
+        { Ellipse: 'assets/Ellipse 1.png', reviewDescription: 'I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.', work: "Publisher", scholars: 'Jannike Borg,'},
+        { Ellipse: 'assets/Ellipse 2.png', reviewDescription:'I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.', work: "Publisher", scholars: 'Jannike Borg,'},
+        { Ellipse: 'assets/Ellipse 3.png', reviewDescription: 'I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.', work: "Publisher", scholars: 'Jannike Borg,' },
+    ];
+
+    const renderReviews = reviews => {
+        const container = document.getElementById('reviewContainer');
+        reviews.forEach(review => {
+            container.innerHTML += `
+                <div>
+                    <img class="Ellipse" src="${review.Ellipse}" alt="${review.Ellipse}">
+                    <h3 class="reviewDescription">${review.reviewDescription}</h3>
+                    <p class="scholars">${review.scholars}<span class="work">${review.work}</span></p>
+                    
+                </div>
+            `;
+        });
+    }
+    
+    renderReviews(reviews);
