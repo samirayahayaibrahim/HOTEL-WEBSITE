@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+/* why choose us section */
 
 const chooses = [
         { image: "assets/img.png", title: "Payment methods", description: "We have a lot of them, from cryptocurrencies to barter for potatoes" },
@@ -35,3 +36,31 @@ const chooses = [
     }
     
     renderChooses(chooses);
+    /* end of why choose us section */ 
+
+    /* special offers section */
+        const specialoffers = [
+            { Rectangle: 'assets/Rectangle 1.png', rate: 'assets/rating.png', favorite: 'assets/favorite.png', SpecialofferDescription: 'Wilderness Club at Big <br> Ceddar', months:"28 October — 1 November", price:"$2016", night:"/6 night"},
+            { Rectangle: 'assets/Rectangle 2.png', rate: 'assets/rating.png', favorite: 'assets/favorite.png', SpecialofferDescription: "Wilderness Club at Big <br> Ceddar", months:"28 October — 1 November", price:"$2016", night:"/6 night"},
+            { Rectangle: 'assets/Rectangle 3.png', rate: 'assets/rating.png', favorite: 'assets/favorite.png', SpecialofferDescription: 'Wilderness Club at Big <br> Ceddar', months:"28 October — 1 November", price:"$2016", night:"/6 night"},
+        ];
+    
+        const renderSpecialoffers = specialoffers => {
+            const container = document.getElementById('specialofferContainer');
+            specialoffers.forEach(specialoffer => {
+                container.innerHTML += `
+                    <div>
+                        <img class="Rectangle" src="${specialoffer.Rectangle}" width="100%" alt="${specialoffer.Rectangle}">
+                        <img class="rate" src="${specialoffer.rate}" alt="${specialoffer.rate}">
+                        <img class="favorite" src="${specialoffer.favorite}" alt="${specialoffer.favorite}">
+                        <p class="SpecialofferDescription">${specialoffer.SpecialofferDescription}</p>
+                        <p class="months">${specialoffer.months}</p>
+                        <p class="price">${specialoffer.price}</p>
+                        <p class="night">${specialoffer.night}</p>
+                    </div>
+                `;
+            });
+        }
+        
+        renderSpecialoffers(specialoffers);
+        /* end of special offers section */

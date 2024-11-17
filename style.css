@@ -294,20 +294,22 @@ h2{
     text-align: center;
 }
 .Rectangle{
+    margin-bottom: -25px;
     padding-left: 20px;
-    padding-bottom: -10px;
-    padding-top: 20px;
+    padding-top: -10px;
     position: relative;
     padding-bottom: 10px;
 
 }
 .rate{
     position: absolute;
-    margin-right: auto;
+    margin-left: -30px;
+    transform: translateY(-200px);
 }
 .favorite{
     position: absolute;
-    padding-left: 300px;
+    padding-left: 250px;
+    transform: translateY(-200px);
 
 }
 .rate-fav{
@@ -319,7 +321,7 @@ h2{
 }
 .SpecialofferDescription{
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-family: "Montserrat";
     font-size: 22px;
     font-weight: 500;
@@ -351,9 +353,10 @@ h2{
 }
 .night{
     color: rgb(125, 192, 247);
-    margin-top: 15px;
+    margin-top: -50px;
     margin-left: 5px;
     font-size: 18px;
+    transform: translateX(100px);
 }
 .Review{
     justify-items: center;
