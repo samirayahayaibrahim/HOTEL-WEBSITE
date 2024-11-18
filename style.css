@@ -254,6 +254,7 @@ padding-top: 10px;
     text-align: start;
     font-family: "Montserrat";
     font-size: 16px;
+    padding-top: 0px;
 }
 .whychooseus{
     background-color: rgb(236, 233, 233);
@@ -292,7 +293,7 @@ h2{
 }
 .description{
     font-family: "Montserrat";
-    margin-top: -40px;
+    margin-top: -20px;
 }
 .h-special{
     text-align: center;
@@ -307,12 +308,12 @@ h2{
 }
 .rate{
     position: absolute;
-    margin-left: -30px;
+    margin-left: 30px;
     transform: translateY(-200px);
 }
 .favorite{
     position: absolute;
-    padding-left: 250px;
+    padding-left: 300px;
     transform: translateY(-200px);
 
 }
@@ -386,7 +387,7 @@ font-size: 14px;
 line-height: 17px;
 color: #1A1A1A;
 padding-left: 20px;
-margin-top: -30px;
+margin-top: -15px;
 }
 
 .work{
@@ -559,7 +560,7 @@ margin-top: -30px;
         font-family: "Montserrat";
         color: #262729;
         margin-left: 22px;
-        margin-top: -40px;
+        margin-top: -20px;
     }
     .del{
         
