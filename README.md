@@ -126,3 +126,8 @@ the project is licensed under MIT LICENSE
 
 ##Render
 **https://hotel-website-eqpk.onrender.com**
+
+##Loom
+**https://www.loom.com/share/06681b8b530043f891a7c4c2cf91476d?sid=78bac69f-f26a-4679-8cf3-379cd2500fc7**
+
+###Am having issues with my loom,my face can't be recorded,Mal Ali ask me to record it without the face,sorry for enconvience.

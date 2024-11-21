@@ -1,16 +1,4 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body{
-    padding: 20px 10px 20px 10px;
-}
-.nav{
-    display: flex;
-    gap: 10px;
-    margin-right: auto;
-} */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,7 +6,6 @@ body {
     overflow-x: hidden;
     
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -27,7 +14,6 @@ header {
     color: white;
     padding: 10px 20px;
 }
-
 .menu-toggle {
     font-size: 24px;
     background: none;
@@ -40,7 +26,6 @@ header {
 .nav-menu {
     display: flex;
 }
-
 .nav-menu ul {
     display: flex;
     list-style: none;
@@ -116,8 +101,8 @@ margin-right: 20px;
     position: absolute;
     top: 10px;
 }
-    .menu-toggle {
-        display: block;
+.menu-toggle {
+    display: block;
     }
     .nav-menu {
         display: none;
@@ -150,8 +135,8 @@ margin-right: 20px;
         line-height: 30px;
         margin-bottom: 0px;
     }
-    .close-menu {
-        display: block;
+.close-menu {
+    display: block;
     }
 .menu-pic{
     padding-left: 20px;
@@ -415,6 +400,16 @@ margin-top: -15px;
     position: relative;
     padding-bottom: 10px;
 
+}
+.more{
+    background-color: #EE685F;
+    height: 50px;
+    width: 270px;
+    margin-left: 33px;
+    border-radius: 10px;
+    border-color: #EE685F;
+    color: white;
+    font-family: 'Montserrat';
 }
     .recentDescription{
     font-family: 'Montserrat';
