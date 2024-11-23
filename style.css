@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 20px 10px;
     overflow-x: hidden;
     
 }
@@ -12,15 +12,18 @@ header {
     align-items: center;
     background-color: #ffff;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 .menu-toggle {
-    font-size: 24px;
+    font-size: 39px;
     background: none;
     border: none;
     color:black;
     cursor: pointer;
     display: none;
+    margin-top:20px;
+    margin-left: 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 .nav-menu {
@@ -33,15 +36,15 @@ header {
     padding: 0;
 }
 .your{
-    font-size: 32px;
+    font-size: 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     line-height: 39px;
     color: #2A90D9;
     margin: auto;
-    padding-left: 40px;
-    margin-top: -35px;
+    padding-left: 60px;
+    margin-top: -38px;
 }
 .logo{
     font-size: 32px;
@@ -53,22 +56,22 @@ header {
     color: #EE685F;
 }
 .icon{
-padding-left: 300px;
+padding-left: 270px;
 transform: translateY(-30px);
 }
 
 .your2{
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
     color: #2A90D9;
-    padding-left: 25px;
-    margin-top: -15px;
+    padding-left: 35px;
+    margin-top: -5px;
 }
 .logo2{
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -93,16 +96,18 @@ margin-right: 20px;
 }
 
 .close-menu {
-    font-size: 24px;
+    font-size: 34px;
     background: none;
     border: none;
     color:black;
     cursor: pointer;
     position: absolute;
-    top: 10px;
+    top: 20px;
 }
 .menu-toggle {
     display: block;
+    top: 20px;
+
     }
     .nav-menu {
         display: none;
@@ -117,7 +122,7 @@ margin-right: 20px;
         transform: translateX(100%);
         transition: transform 0.3s ease;
         z-index: 1;
-        margin-top: -95px;
+        margin-top: -130px;
         margin-left: -25px;
     }
     .nav-menu.active {
@@ -129,7 +134,7 @@ margin-right: 20px;
         width: 100%;
     }
     .nav-menu li {
-        margin: 0px 0;
+        padding-left: 5px;
         color: black;
         margin-top: 5px;
         line-height: 30px;
@@ -193,7 +198,7 @@ color: #262729;
 padding-top: 10px;
 }
 .search{
-    width: 328px;
+    width: 300px;
     border-radius: 40px;
     background-color: white;
     display: flex;
@@ -202,14 +207,16 @@ padding-top: 10px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
     margin-top: 30px;
     padding-left: 15px;
-    position: absolute;
+    box-sizing: border-box;
+
+    
 }
 .location{
     margin-top: 20px;
     margin-left: 10px;
 }
 .button{
-    padding-left: 220px;
+    padding-left: 200px;
     padding-top: -85px;
     transform: translateY(-35px);
     position: relative;
@@ -240,6 +247,7 @@ padding-top: 10px;
     font-family: "Montserrat";
     font-size: 16px;
     padding-top: 0px;
+
 }
 .whychooseus{
     background-color: rgb(236, 233, 233);
@@ -249,7 +257,7 @@ padding-top: 10px;
 .image{
     margin-top: 20px;
     margin-bottom: -5px;
-    padding-left: 70px;
+    padding-left: -50px;
 }
 .p-why{
     font-size: 20px;
@@ -294,12 +302,12 @@ h2{
 .rate{
     position: absolute;
     margin-left: 30px;
-    transform: translateY(-200px);
+    transform: translateY(-170px);
 }
 .favorite{
     position: absolute;
-    padding-left: 300px;
-    transform: translateY(-200px);
+    padding-left: 260px;
+    transform: translateY(-170px);
 
 }
 .rate-fav{
@@ -353,7 +361,7 @@ h2{
 }
 .Ellipse{
     padding-top: 30px;
-    padding-left: 130px;
+    padding-left: 100px;
 }
 .reviewDescription{
 font-family: 'Montserrat';
@@ -395,10 +403,11 @@ margin-top: -15px;
     
 .Rectangle2{
     margin-bottom: -5px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: -10px;
     position: relative;
     padding-bottom: 10px;
+    width: 300px;
 
 }
 .more{
@@ -434,7 +443,7 @@ margin-top: -15px;
         margin-top: -5px;
         }
     .minutes{
-        padding-left: 230px;
+        padding-left: 200px;
         transform: translateY(-35px);
         height: 18px;
     }
@@ -472,6 +481,7 @@ margin-top: -15px;
     border: 2px solid rgb(236, 233, 233) ;
     height: 1000px;
     line-height: 20px;
+
     }
     h4{
     font-family: 'Montserrat';
@@ -507,7 +517,7 @@ margin-top: -15px;
     .red{
     box-sizing: border-box;
     height: 40px;
-    width: 330px;
+    width: 280px;
     background: #FFFFFF;
     border: 1px solid #EE685F;
     border-radius: 10px;
@@ -518,7 +528,7 @@ margin-top: -15px;
     .arrow{
         transform: translateY(-40px);
         height: 40px;
-        margin-left: 310px;
+        margin-left: 260px;
         background-color: #EE685F;
         border: #EE685F;
         border-radius: 0px 10px 10px 0px ;
